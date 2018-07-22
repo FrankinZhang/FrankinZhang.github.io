@@ -79,13 +79,16 @@
 
 
 
+<meta name="description" content="做自己爱做的事，无怨无悔">
 <meta property="og:type" content="website">
-<meta property="og:title" content="KevinZhang Thoughts Area">
+<meta property="og:title" content="KevinZhang的博客">
 <meta property="og:url" content="frankinzhang.github.io/index.html">
-<meta property="og:site_name" content="KevinZhang Thoughts Area">
+<meta property="og:site_name" content="KevinZhang的博客">
+<meta property="og:description" content="做自己爱做的事，无怨无悔">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="KevinZhang Thoughts Area">
+<meta name="twitter:title" content="KevinZhang的博客">
+<meta name="twitter:description" content="做自己爱做的事，无怨无悔">
 
 
 
@@ -121,7 +124,7 @@
 
 
 
-  <title>KevinZhang Thoughts Area</title>
+  <title>KevinZhang的博客</title>
   
 
 
@@ -154,12 +157,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">KevinZhang Thoughts Area</span>
+        <span class="site-title">KevinZhang的博客</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">记录平时遇到的问题和自己的想法</p>
       
   </div>
 
@@ -300,7 +303,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="KevinZhang Thoughts Area">
+      <meta itemprop="name" content="KevinZhang的博客">
     </span>
 
     
@@ -335,6 +338,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/07/21/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/07/21/hello-world/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -420,7 +433,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="KevinZhang Thoughts Area">
+      <meta itemprop="name" content="KevinZhang的博客">
     </span>
 
     
@@ -455,6 +468,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/07/20/ubuntu下GithubPages-Hexo教程/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/07/20/ubuntu下GithubPages-Hexo教程/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -554,7 +577,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">KevinZhang</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">做自己爱做的事，无怨无悔</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -785,6 +808,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'gAmJEQFJnEBBwuWHWpzorr1l-gzGzoHsz',
+        appKey: 'r4UHHel2fEIlIPDC5wDrif1q',
+        placeholder: '老铁，来说两句吧',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
